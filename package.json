@@ -1,0 +1,33 @@
+{
+  "name": "discord-autovoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoDACode/Discord-AutoVoice.git"
+  },
+  "keywords": [
+    "Discord",
+    "AutoVoice",
+    "Voice"
+  ],
+  "author": "VoDACode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VoDACode/Discord-AutoVoice/issues"
+  },
+  "homepage": "https://github.com/VoDACode/Discord-AutoVoice#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
